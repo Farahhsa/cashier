@@ -1,4 +1,10 @@
 def get_invoice_items(items):
+    invoice_items=[]
+    for item in items:
+      invoice_items.append = {"quantity":item, "name":"item", "price":"item"}
+    
+
+
     # Items is a dictionary with a quantity and price key, and a name key
     # Return a list of all the invoice line items in the following format:
     # quantity name subtotal currency
@@ -32,6 +38,19 @@ def print_receipt(invoice_items, total):
 
 
 def main():
+    item = []
+    item_name=input("Enter the item name:","write done is you're done:")
+    while item_name != "done":
+        item.append(item_name)
+        item_name=input("Enter the item name:","write done is you're done:")
+
+
+
+    
+
+
+
+
     # Write your main logic here
     ...
 
